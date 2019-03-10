@@ -39,7 +39,7 @@ public class PlayerActivity extends AppCompatActivity {
         // Media Player
       if(alinanPozisyonum==0) {
 
-            mp = MediaPlayer.create(this, R.raw.cenerik);
+            mp = MediaPlayer.create(this, R.raw.emanetin_bende_sakli);
             mp.setLooping(false);
             mp.seekTo(0);
             mp.setVolume(0.5f, 0.5f);
@@ -49,7 +49,7 @@ public class PlayerActivity extends AppCompatActivity {
         }
         if(alinanPozisyonum==1) {
 
-            mp = MediaPlayer.create(this, R.raw.music2);
+            mp = MediaPlayer.create(this, R.raw.yasak_ask);
             mp.setLooping(true);
             mp.seekTo(0);
             mp.setVolume(0.5f, 0.5f);
@@ -58,13 +58,268 @@ public class PlayerActivity extends AppCompatActivity {
          if(alinanPozisyonum==2) {
 
 
-            mp = MediaPlayer.create(this, R.raw.music3);
+            mp = MediaPlayer.create(this, R.raw.jenerik_muzigi);
             mp.setLooping(true);
             mp.seekTo(0);
             mp.setVolume(0.5f, 0.5f);
             totalTime = mp.getDuration();
 
         }
+        if(alinanPozisyonum==3) {
+
+            mp = MediaPlayer.create(this, R.raw.ucurumdun_sen);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==4) {
+
+            mp = MediaPlayer.create(this, R.raw.tum_izleri_sildim);
+            mp.setLooping(false);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+
+        }
+        if(alinanPozisyonum==5) {
+
+            mp = MediaPlayer.create(this, R.raw.aska_teslim);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==6) {
+
+
+            mp = MediaPlayer.create(this, R.raw.konaktaki_yalnizlik);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+        }
+        if(alinanPozisyonum==7) {
+
+            mp = MediaPlayer.create(this, R.raw.aska_agit);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==8) {
+
+            mp = MediaPlayer.create(this, R.raw.bir_gunah_gibi);
+            mp.setLooping(false);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+
+        }
+        if(alinanPozisyonum==9) {
+
+            mp = MediaPlayer.create(this, R.raw.bihter_intihar);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==10) {
+
+
+            mp = MediaPlayer.create(this, R.raw.imkansizdik);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+        }
+        if(alinanPozisyonum==11) {
+
+            mp = MediaPlayer.create(this, R.raw.caresizlik_olum_gibi);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==12) {
+
+            mp = MediaPlayer.create(this, R.raw.kalbimi_benden_aldin);
+            mp.setLooping(false);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+
+        }
+        if(alinanPozisyonum==13) {
+
+            mp = MediaPlayer.create(this, R.raw.sikayetim_kendimden);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==14) {
+
+
+            mp = MediaPlayer.create(this, R.raw.bu_sir_elbet_cozulur);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+        }
+        if(alinanPozisyonum==15) {
+
+            mp = MediaPlayer.create(this, R.raw.seni_beklemek);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==16) {
+
+            mp = MediaPlayer.create(this, R.raw.besir);
+            mp.setLooping(false);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+
+        }
+        if(alinanPozisyonum==17) {
+
+            mp = MediaPlayer.create(this, R.raw.sir);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==18) {
+
+
+            mp = MediaPlayer.create(this, R.raw.beni_aglatmayin);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+        }
+        if(alinanPozisyonum==19) {
+
+            mp = MediaPlayer.create(this, R.raw.sonu_belli_hikaye);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==20) {
+
+            mp = MediaPlayer.create(this, R.raw.hatiran_bende_sakli);
+            mp.setLooping(false);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+
+        }
+        if(alinanPozisyonum==21) {
+
+            mp = MediaPlayer.create(this, R.raw.nihal);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==22) {
+
+
+            mp = MediaPlayer.create(this, R.raw.kum_saati_doluyor);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+        }
+        if(alinanPozisyonum==23) {
+
+            mp = MediaPlayer.create(this, R.raw.bahar_yine_gelir_mi);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==24) {
+
+            mp = MediaPlayer.create(this, R.raw.yikik_hayaller);
+            mp.setLooping(false);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+
+        }
+        if(alinanPozisyonum==25) {
+
+            mp = MediaPlayer.create(this, R.raw.yasak_ask_remix);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==26) {
+
+
+            mp = MediaPlayer.create(this, R.raw.eskiden);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+        }
+        if(alinanPozisyonum==27) {
+
+            mp = MediaPlayer.create(this, R.raw.hayalperest);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==28) {
+
+            mp = MediaPlayer.create(this, R.raw.soyleyemediklerim);
+            mp.setLooping(false);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+
+        }
+        if(alinanPozisyonum==29) {
+
+            mp = MediaPlayer.create(this, R.raw.kucuk_umutlar);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+        }
+        if(alinanPozisyonum==30) {
+
+
+            mp = MediaPlayer.create(this, R.raw.yeni_gune_uyanis);
+            mp.setLooping(true);
+            mp.seekTo(0);
+            mp.setVolume(0.5f, 0.5f);
+            totalTime = mp.getDuration();
+
+        }
+
+
+
 
         // Position Bar
         positionBar = (SeekBar) findViewById(R.id.positionBar);

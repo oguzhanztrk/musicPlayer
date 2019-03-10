@@ -29,10 +29,40 @@ int pozisyonGlobal;
         ListView listView_Parcalar = (ListView)findViewById(R.id.listView_Parcalar);
 
         ArrayList<String> musicNames = new ArrayList<String>();
+        musicNames.add("Emanetin Bende Saklı");
+        musicNames.add("Yasak Aşk");
         musicNames.add("Jenerik Müziği");
-        musicNames.add("parca2");
-        musicNames.add("parca3");
-       // musicNames.add(pozisyon);
+        musicNames.add("Uçurumdun Sen");
+        musicNames.add("Tüm İzlerini Sildim");
+        musicNames.add("Aşka Teslim");
+        musicNames.add("Konaktaki Yalnızlık");
+        musicNames.add("Aşka Ağıt ");
+        musicNames.add("Bir Günah Gibi - Ajda Pekkan & Toygar Işıklı");
+        musicNames.add("Bihter ( İntihar )");
+        musicNames.add("İmkansızdık ");
+        musicNames.add("Çaresizlik Ölüm Gibi ");
+        musicNames.add("Kalbimi Benden Alın");
+        musicNames.add("Şikayetim Kendimden");
+        musicNames.add("Bu Sır Elbet Çözülür");
+        musicNames.add("Seni Beklemek ");
+        musicNames.add("Beşir");
+        musicNames.add("Sır");
+        musicNames.add("Beni Ağlatmayın");
+        musicNames.add("Sonu Belli Bir Hikaye");
+        musicNames.add("Hatıran Bende Saklı");
+        musicNames.add("Nihal");
+        musicNames.add("Kum Saati Doluyor");
+        musicNames.add("Bahar Yine Gelir mi");
+        musicNames.add("Yıkık Hayaller ");
+        musicNames.add("Yasak Aşk ( Remix by Uğur Kirik ) ");
+        musicNames.add("Eskiden");
+        musicNames.add("Hayalperest");
+        musicNames.add("Söyleyemediklerim ( Matmazel )");
+        musicNames.add("Küçük Umutlar ");
+        musicNames.add("Yeni Güne Uyanış");
+
+        // musicNames.add(pozisyon);
+
 
         ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, musicNames);
 
